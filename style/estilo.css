@@ -60,3 +60,8 @@ body {
 .copy-link:hover{
     color: cornflowerblue !important;
 }
+
+.cmyk {
+    width: 1.2rem;
+    height: 1.2rem;
+}

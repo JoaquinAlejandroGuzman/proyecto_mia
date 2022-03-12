@@ -1,67 +1,50 @@
 /* ESTILO EN HOJA BOOSTRAP */
-
 body {
-    background-color: #cccccc; 
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
-}
+  background-color: #cccccc;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
 
-.navbar{
-    
-        background-image: linear-gradient(#838383, #cccccc);
-    
-}
-
+.navbar {
+  background-image: linear-gradient(#838383, #cccccc); }
 
 .btn-mia {
-    background: #c33263;
-}
+  background: #c33263; }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #c33263;
-    font-size: 1.3rem;
-    font-weight: 600;
-}
-.navbar-collapse { /*ESTO ES PARA LA BARRA DE NAVEGACION A LA IZQ*/
-    flex-grow: initial;
-}
+  color: #c33263;
+  font-size: 1.3rem;
+  font-weight: 600; }
 
+.navbar-collapse {
+  /*ESTO ES PARA LA BARRA DE NAVEGACION A LA IZQ*/
+  flex-grow: initial; }
 
 .items__mvv {
-    width: 60%;
-}
+  width: 60%; }
 
 .index__container {
-    padding-top: 1.5rem;
-}
+  padding-top: 1.5rem; }
 
-.footer__color{
-    background-image: linear-gradient(#363636, #000000);
-}
+.footer__color {
+  background-image: linear-gradient(#363636, #000000); }
 
 #galeria .col-lg-4 {
-    padding: 1rem;
-}
+  padding: 1rem; }
 
 #galeria img {
-    width: 100%;
-    height: 25rem;
-}
+  width: 100%;
+  height: 25rem; }
 
 #galeria img:hover {
-    border: 0.5rem solid rgb(170, 170, 170);
-}
+  border: 0.5rem solid #aaaaaa; }
 
 .mia-link:hover {
-    color:#c33263 !important;
-}
+  color: #c33263 !important; }
 
-.copy-link:hover{
-    color: cornflowerblue !important;
-}
+.copy-link:hover {
+  color: cornflowerblue !important; }
 
 .cmyk {
-    width: 1.2rem;
-    height: 1.2rem;
-}
+  width: 1.2rem;
+  height: 1.2rem; }

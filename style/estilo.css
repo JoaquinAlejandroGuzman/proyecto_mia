@@ -1,3 +1,23 @@
+.footer__color {
+  background-image: linear-gradient(#363636, #000000); }
+  .footer__color .cmyk {
+    width: 1.2rem;
+    height: 1.2rem; }
+  .footer__color .mia-link:hover {
+    color: #c33263 !important; }
+  .footer__color .copy-link:hover {
+    color: cornflowerblue !important; }
+
+.navbar {
+  background-image: linear-gradient(#838383, #cccccc); }
+  .navbar .navbar-collapse {
+    /*ESTO ES PARA LA BARRA DE NAVEGACION A LA IZQ*/
+    flex-grow: initial; }
+    .navbar .navbar-collapse .nav-link {
+      color: #c33263;
+      font-size: 1.3rem;
+      font-weight: 600; }
+
 /* ESTILO EN HOJA BOOSTRAP */
 body {
   background-color: #cccccc;
@@ -5,29 +25,15 @@ body {
   min-height: 100vh;
   grid-template-rows: auto 1fr auto; }
 
-.navbar {
-  background-image: linear-gradient(#838383, #cccccc); }
-
 .btn-mia {
+  /*FORMULARIO CONTACTO SECC*/
   background: #c33263; }
-
-.navbar-light .navbar-nav .nav-link {
-  color: #c33263;
-  font-size: 1.3rem;
-  font-weight: 600; }
-
-.navbar-collapse {
-  /*ESTO ES PARA LA BARRA DE NAVEGACION A LA IZQ*/
-  flex-grow: initial; }
 
 .items__mvv {
   width: 60%; }
 
 .index__container {
   padding-top: 1.5rem; }
-
-.footer__color {
-  background-image: linear-gradient(#363636, #000000); }
 
 #galeria .col-lg-4 {
   padding: 1rem; }
@@ -38,13 +44,3 @@ body {
 
 #galeria img:hover {
   border: 0.5rem solid #aaaaaa; }
-
-.mia-link:hover {
-  color: #c33263 !important; }
-
-.copy-link:hover {
-  color: cornflowerblue !important; }
-
-.cmyk {
-  width: 1.2rem;
-  height: 1.2rem; }

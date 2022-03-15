@@ -1,3 +1,8 @@
+@import "footer";
+
+@import "header";
+
+
 /* ESTILO EN HOJA BOOSTRAP */
 
 body {
@@ -5,38 +10,6 @@ body {
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
-
-    .navbar{
-        background-image: linear-gradient(#838383, #cccccc);
-
-        .navbar-collapse { /*ESTO ES PARA LA BARRA DE NAVEGACION A LA IZQ*/
-            flex-grow: initial;
-    
-             .nav-link {
-                color: #c33263;
-                font-size: 1.3rem;
-                font-weight: 600;
-
-                .footer__color{
-                    background-image: linear-gradient(#363636, #000000);
-
-                    .cmyk {
-                        width: 1.2rem;
-                        height: 1.2rem;
-                    }
-                    
-                    .mia-link:hover {
-                        color:#c33263 !important;
-                    }
-                    
-                    .copy-link:hover{
-                        color: cornflowerblue !important;
-                    }
-
-                }
-            }
-        }
-    }
 }
 
 .btn-mia { /*FORMULARIO CONTACTO SECC*/
@@ -50,8 +23,6 @@ body {
 .index__container {
     padding-top: 1.5rem;
 }
-
-
 
 #galeria .col-lg-4 {
     padding: 1rem;

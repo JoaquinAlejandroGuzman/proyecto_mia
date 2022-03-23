@@ -5,7 +5,6 @@
 }
 
 
-
 .index__container { /*SECC INDEX*/
     padding-top: 1.5rem;
 }
@@ -21,4 +20,24 @@
 
 #galeria img:hover {
     border: 0.5rem solid rgb(170, 170, 170);
+}
+
+.mvv {
+    width: 10rem;
+}
+
+
+/*EJEMPLO DE UTILIZACION DE EACH (ES SOLO UNA DEMOSTRACION YA QUE NO LO VOY A UTILIZAR EN MI PROYECTO)*/
+
+$dimension: 10rem;
+@each $items in viejo, nuevo {
+    .#{$items}-imp {
+        width: $dimension;
+        height: $dimension;
+        background-image: 
+            url('../images/nosotros/#{$items}.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }

@@ -42,3 +42,23 @@ body {
 
 #galeria img:hover {
   border: 0.5rem solid #aaaaaa; }
+
+.mvv {
+  width: 10rem; }
+
+/*EJEMPLO DE UTILIZACION DE EACH (ES SOLO UNA DEMOSTRACION YA QUE NO LO VOY A UTILIZAR EN MI PROYECTO)*/
+.viejo-imp {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("../images/nosotros/viejo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.nuevo-imp {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("../images/nosotros/nuevo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }

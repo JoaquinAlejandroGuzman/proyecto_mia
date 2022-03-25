@@ -15,29 +15,17 @@
 
 #galeria img {
     width: 100%;
-    height: 25rem;
+    height: 100%;
 }
 
 #galeria img:hover {
-    border: 0.5rem solid rgb(170, 170, 170);
+    border: 0.5rem solid $colorGris;
+}
+
+.btn:hover{
+    background: $colorGris;
 }
 
 .mvv {
     width: 10rem;
-}
-
-
-/*EJEMPLO DE UTILIZACION DE EACH (ES SOLO UNA DEMOSTRACION YA QUE NO LO VOY A UTILIZAR EN MI PROYECTO)*/
-
-$dimension: 10rem;
-@each $items in viejo, nuevo {
-    .#{$items}-imp {
-        width: $dimension;
-        height: $dimension;
-        background-image: 
-            url('../images/nosotros/#{$items}.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
 }
